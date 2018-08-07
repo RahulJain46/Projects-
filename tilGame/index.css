@@ -1,0 +1,38 @@
+#tile-container{
+    width:700px;
+    height:700px;
+    background-color:green;
+    position:relative;
+    border: 2px solid red;
+    margin:0 auto;
+  }
+  .singleTitle{
+    background-color:red;
+    position:relative;
+    border:1px solid;
+    display:inline-block;
+  }
+  .hightLight{
+    background-color: pink;
+  }
+
+  .plus-one{
+    position: absolute;
+    color:green;
+    will-change:opacity,transform;
+    font-size: 14;
+    transform: translateY(0px);
+    transition:opacity 0.99s ease-in;
+    display: none;
+    opacity: 0;
+  }
+  .minus-one{
+    position: absolute;
+    color:red;
+    will-change:opacity,transform;
+    font-size: 14;
+    transform: translateY(0px);
+    opacity: 0;
+    display: none;
+    transition:opacity 0.99s ease-in;
+  }

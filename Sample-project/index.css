@@ -1,0 +1,78 @@
+.rock .button-band.one{
+    margin-top: 20px;
+}
+.rock .button-band.two{
+    margin-top: 50px;
+}
+.rock .button-band.three{
+    margin-top: 60px;
+}
+.rock .button-band.four{
+    margin-top: 70px;
+}
+.rock .button-band.five{
+    margin-top: 90px;
+}
+
+.pop .button-band.one{
+    margin-top: 90px;
+}
+.pop .button-band.two{
+    margin-top: 80px;
+}
+.pop .button-band.three{
+    margin-top: 60px;
+}
+.pop .button-band.four{
+    margin-top: 70px;
+}
+.jazz .button-band.one{
+    margin-top: 40px;
+}
+.jazz .button-band.two{
+    margin-top: 50px;
+}
+.jazz .button-band.three{
+    margin-top: 60px;
+}
+.jazz .button-band.four{
+    margin-top: 70px;
+}
+.classical .button-band.one{
+    margin-top: 60px;
+}
+.classical .button-band.two{
+    margin-top: 30px;
+}
+.classical .button-band.three{
+    margin-top: 40px;
+}
+.classical .button-band.four{
+    margin-top: 25px;
+}
+
+
+
+.button-band{
+    background-color: blue;
+    width: 100%;
+    color: blue;
+    height: 34px;
+    margin-top: 84px;
+}
+
+.band {
+    width: 3%;
+    display: inline-block;
+    height: 59%;
+    margin-left: 50px;
+    color: black;
+    background-color: black;
+}
+.dropdown{
+    display: inline-block;
+    left: 22px;
+    position: relative;
+    bottom: 191px;
+}
+
