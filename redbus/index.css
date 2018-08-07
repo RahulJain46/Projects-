@@ -1,0 +1,26 @@
+.seat{
+    display: inline-block;
+    width:100px;
+    background-color: grey;
+}
+
+.seat{
+    height: 20px;
+    border:1px dotted red; 
+  }
+  
+  .fare{
+    width:120px;
+    position: absolute;
+    z-index:1;
+    visibility:hidden;
+  }
+  
+  .seat:hover .fare{
+  visibility:visible;
+  }
+  #bus-container{
+   width: 70%;
+   margin: 0 auto;
+  }
+  
